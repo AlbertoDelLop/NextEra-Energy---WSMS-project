@@ -9,7 +9,8 @@ http://www.investor.nexteraenergy.com/
 
 
 - Scrapy
-in the terminal run the following commands:
+
+in terminal run the following commands:
 scrapy crawl crawler -o overview.csv(or preferred name for saving the output)
 scrapy crawl stock -o stock.csv (or preferred name for saving the output)
 
