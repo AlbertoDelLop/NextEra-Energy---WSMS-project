@@ -32,7 +32,7 @@ print(d)
 # ################################################################################
 d.to_csv('overview.csv')
 
-																# Extraction of Stock Chart Table
+                                           # Extraction of Stock Chart Table
 
 
 # We download the code as before:
