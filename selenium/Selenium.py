@@ -2,6 +2,8 @@ from selenium import webdriver
 import time
 import pandas as pd
 
+start = time.perf_counter()
+
 gecko_path = '/usr/local/bin/geckodriver'
 url = 'http://www.investor.nexteraenergy.com/'
 
@@ -79,3 +81,6 @@ time.sleep(5)
 
 # Close browser:
 driver.quit()
+
+print('\nExecution time:',str(round(time.perf_counter() - start - 13, 4))+'s')
+
