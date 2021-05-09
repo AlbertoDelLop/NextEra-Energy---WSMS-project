@@ -17,3 +17,7 @@ scrapy crawl crawler -o overview.csv(or preferred name for saving the output)
 scrapy crawl stock -o stock.csv (or preferred name for saving the output)
 
 - Selenium
+
+In terminal run the command:
+
+python Selenium.py
